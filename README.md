@@ -1,0 +1,2 @@
+# JavaScript
+Just learning JavaScript
