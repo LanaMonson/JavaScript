@@ -1,0 +1,9 @@
+const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
+
+console.log(objectives.length);
+
+
+const newYearsResolutions = ['Keep a journal', 'Take a falconry class'];
+
+console.log(newYearsResolutions.length);
+// Output: 2
