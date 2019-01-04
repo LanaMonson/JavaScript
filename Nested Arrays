@@ -1,0 +1,17 @@
+const numberClusters = [[1, 2], [3, 4], [5, 6]];
+
+const target = numberClusters[2][1];
+
+
+const nestedArr = [[1], [2, 3]];
+
+console.log(nestedArr[1]); // Output: [2, 3]
+
+
+LOOPS. Repeating Tasks Manually
+
+const vacationSpots = ['Italy', 'Spain', 'Georgia'];
+
+console.log(vacationSpots[0]);
+console.log(vacationSpots[1]);
+console.log(vacationSpots[2]);
