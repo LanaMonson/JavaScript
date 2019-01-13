@@ -1,0 +1,26 @@
+const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
+  for(let i = 1; i <= 1000000; i++) {
+    if ( (2 + 2) != 4) {
+      console.log('Something has gone very wrong :( ');
+    }
+  }
+};
+
+const is2p2 = checkThatTwoPlusTwoEqualsFourAMillionTimes;
+is2p2();
+console.log(is2p2.name);
+
+
+
+const announceThatIAmDoingImportantWork = () => {
+    console.log("I’m doing very important work!");
+};
+
+
+//What if we wanted to rename this function without sacrificing the source code? 
+//We can re-assign the function to a variable with a suitably short name:
+
+const busy = announceThatIAmDoingImportantWork;
+
+busy(); // This function call barely takes any space!
+
